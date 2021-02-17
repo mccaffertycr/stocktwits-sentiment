@@ -7,25 +7,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-#search-form {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-#search-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: none;
-  border: none;
-  border-radius: 5px;
-  margin-left: 0.5rem;
-}
-
-#search-btn:hover {
-  background-color: var(--background-light);
-}

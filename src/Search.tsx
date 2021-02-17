@@ -13,7 +13,7 @@ export const Search = () => {
 
     if (input) {
       try {
-        const response = await fetch(`https://api.stocktwits.com/api/2/streams/symbol/${input}.json`);
+        const response = await fetch(`https://api.stocktwits.com/api/2/streams/symbol/${input}.json`, { mode: 'no-cors' });
         const result: any = await response.json();
    
         if (result) {
