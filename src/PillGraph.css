@@ -1,0 +1,40 @@
+#pill-graph-wrapper {
+  height: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--background-light);
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#pill-graph-left-outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(50% - 0.5rem);
+  max-width: calc(50% - 0.5rem);
+  height: 100%;
+  padding-left: 0.5rem;
+}
+
+#pill-graph-left {
+  height: 100%;
+  background-color: var(--bearish);
+}
+
+#pill-graph-right-outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(50% - 0.5rem);
+  max-width: calc(50% - 0.5rem);
+  height: 100%;
+  padding-right: 0.5rem;
+}
+
+#pill-graph-right {
+  height: 100%;
+  background-color: var(--bullish);
+}

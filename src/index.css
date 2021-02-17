@@ -1,13 +1,30 @@
+@import url("https://cdn.openfin.co/fonts/inter/inter.css");
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+:root {
+  --base-medium: #c9cbd2;
+  --base-high: #fff;
+  --background-low: #232529;
+  --background-medium: #2b2d32;
+  --background-light: #595b61;
+  --bearish: #fd5e60;
+  --bullish: #22cc81;
+}
+
 body {
+  background-color: var(--background-medium);
+  color: var(--base-high);
+  font-family: Inter;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  font-size: 16px;
 }
